@@ -6,9 +6,11 @@
 #################################################################################
 
 BUCKET = [OPTIONAL] your-bucket-for-syncing-data (do not include 's3://')
-PROJECT_NAME = monument
-CONTAINER_NAME = pella
+PROJECT_NAME = shrine
+CONTAINER_NAME = Aigai
 PORT = 8801
+
+export PROJECT_NAME
 
 #################################################################################
 # COMMANDS                                                                      #

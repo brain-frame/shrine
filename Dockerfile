@@ -11,6 +11,7 @@ RUN usermod -l alexander jovyan
 
 USER alexander
 
+RUN pip install kaggle
 
-# Move to the working directory of monument
-WORKDIR /monument
+# Move to the working directory of shrine
+WORKDIR /shrine
